@@ -60,4 +60,28 @@ Install the dependency:
 pip install -r requirements.txt
 ```
 
-Run the program:
+Run the application:
+
+python rag.py
+
+Then enter a question when prompted.
+
+Example Questions
+
+Questions supported by the documents include:
+
+Where is NovaTech Solutions headquartered?
+
+What is NovaAI?
+
+What does CloudSync do?
+
+What is DataLens?
+
+Questions whose answers are not contained in the documents should return:
+
+Not found in the documents.
+
+Note
+
+This project uses local embeddings and does not require an external API key. The answer-generation component is intentionally simple and extractive because the primary objective of this task is to demonstrate document chunking, embeddings, retrieval, source display, and honest not-found behavior.
