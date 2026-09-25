@@ -60,10 +60,10 @@ Install the dependency:
 pip install -r requirements.txt
 ```
 
-Run the application:
-
+## Run the application:
+```bash
 python rag.py
-
+```
 Then enter a question when prompted.
 
 Example Questions
@@ -82,6 +82,5 @@ Questions whose answers are not contained in the documents should return:
 
 Not found in the documents.
 
-Note
-
+Note:
 This project uses local embeddings and does not require an external API key. The answer-generation component is intentionally simple and extractive because the primary objective of this task is to demonstrate document chunking, embeddings, retrieval, source display, and honest not-found behavior.
